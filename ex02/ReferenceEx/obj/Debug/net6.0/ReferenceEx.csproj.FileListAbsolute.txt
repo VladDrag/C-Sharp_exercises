@@ -1,0 +1,15 @@
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.csproj.AssemblyReference.cache
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.AssemblyInfoInputs.cache
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.AssemblyInfo.cs
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.csproj.CoreCompileInputs.cache
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/bin/Debug/net6.0/ReferenceEx
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/bin/Debug/net6.0/ReferenceEx.deps.json
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/bin/Debug/net6.0/ReferenceEx.runtimeconfig.json
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/bin/Debug/net6.0/ReferenceEx.dll
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/bin/Debug/net6.0/ReferenceEx.pdb
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.dll
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/refint/ReferenceEx.dll
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.pdb
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ReferenceEx.genruntimeconfig.cache
+/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex02/ReferenceEx/obj/Debug/net6.0/ref/ReferenceEx.dll
