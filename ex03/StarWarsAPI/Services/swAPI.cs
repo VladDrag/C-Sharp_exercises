@@ -1,0 +1,7 @@
+namespace SWAPI
+{
+	class swAPIService
+	{
+		
+	}
+}
