@@ -3,7 +3,7 @@ using StarWarsAPI.Models;
 
 namespace StarWarsAPI.Services
 {
-    interface IHeroesDownloader
+    public interface IHeroesDownloader
     {
         Task<Hero> GetHero(int id);
 

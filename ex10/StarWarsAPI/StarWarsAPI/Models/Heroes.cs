@@ -1,10 +1,12 @@
 using System.Collections.Generic;
+using System.Text.Json.Serialization;
 
 namespace StarWarsAPI.Models
 {
     public class Heroes
     {
-        public List<Hero> HeroList { get; set; }
+        [JsonPropertyName("results")]
+        public IList<Hero> HeroList { get; set; }
 
         public int NumberOfHeroes => HeroList.Count;
     }
