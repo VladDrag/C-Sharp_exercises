@@ -8,7 +8,7 @@ namespace StarWarsAPI.Services
 {
     public class HeroesDownloader : IHeroesDownloader
     {
-        public async Task<Hero> GetHero(string id)
+        public async Task<Hero> GetHero(int id)
         {
             var client = new HttpClient();
             client.DefaultRequestHeaders.Accept.Clear();
@@ -20,8 +20,8 @@ namespace StarWarsAPI.Services
         
             return  await JsonSerializer.DeserializeAsync<Hero>(await heroTask);
         }
-        
-        public async Task<Hero> GetHeroes()
+
+        public async Task<Heroes> GetHeroes()
         {
             var client = new HttpClient();
             client.DefaultRequestHeaders.Accept.Clear();
@@ -31,7 +31,7 @@ namespace StarWarsAPI.Services
             var heroesTask = client.GetStreamAsync(url);
 
         
-            return  await JsonSerializer.DeserializeAsync<Hero>(await heroesTask);
+            return  await JsonSerializer.DeserializeAsync<Heroes>(await heroesTask);
         }
 
     }
