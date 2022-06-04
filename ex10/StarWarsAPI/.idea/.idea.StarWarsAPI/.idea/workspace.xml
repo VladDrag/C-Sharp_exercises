@@ -17,6 +17,9 @@
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StarWarsAPI/Models/Heroes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,15 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="StarWarsAPI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -79,9 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654367052149</updated>
       <workItem from="1654367060288" duration="26000" />
-      <workItem from="1654367374600" duration="710000" />
-      <workItem from="1654368921545" duration="670000" />
-      <workItem from="1654369632468" duration="341000" />
+      <workItem from="1654367374600" duration="1886000" />
     </task>
     <servers />
   </component>

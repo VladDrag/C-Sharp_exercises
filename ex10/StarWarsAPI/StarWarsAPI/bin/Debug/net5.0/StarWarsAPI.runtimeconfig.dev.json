@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/saltdev/.dotnet/store/|arch|/|tfm|",
+      "/Users/saltdev/.nuget/packages"
+    ]
+  }
+}
