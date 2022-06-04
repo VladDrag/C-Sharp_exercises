@@ -1,0 +1,15 @@
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.deps.json
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.runtimeconfig.json
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.runtimeconfig.dev.json
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.dll
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/bin/Debug/net5.0/ref/StarWarsAPI.dll
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.pdb
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.AssemblyInfoInputs.cache
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.AssemblyInfo.cs
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.CoreCompileInputs.cache
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.dll
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/ref/StarWarsAPI.dll
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.pdb
+/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.genruntimeconfig.cache
