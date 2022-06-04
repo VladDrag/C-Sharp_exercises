@@ -1,11 +1,12 @@
+using System.Threading.Tasks;
 using StarWarsAPI.Models;
 
 namespace StarWarsAPI.Services
 {
     interface IHeroesDownloader
     {
-        Hero GetHero();
+        Task<Hero> GetHero(int id);
 
-        List<Hero> GetHeroes();
+        Task<Heroes> GetHeroes();
     }
 }
