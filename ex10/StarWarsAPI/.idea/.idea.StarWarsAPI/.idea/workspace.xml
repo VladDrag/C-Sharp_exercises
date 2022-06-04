@@ -6,9 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="80a807ff-26fe-4ac7-b71d-061eeeaef7f5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI.sln" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Controllers/SwapiController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Controllers/SwapiController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Models/Heroes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Models/Heroes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/StarWarsAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/StarWarsAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/WriteLines.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/ref/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/ref/StarWarsAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/ref/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/ref/StarWarsAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.assets.json" afterDir="false" />
@@ -22,11 +36,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/25ebdca878257b2eade182df661c8cde3f748ab7210265199d1a2a8f76b64b/Future.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StarWarsAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StarWarsAPI/Services/IHeroesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/475d41ba18ff1e1dd0dfdb291e9763a93838dcb09efe1786265bcc3f64c8/HttpClient.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7479746983f91eea51238a5ef4c1cbf9f3dd7266ba86a7df744e62dfbaeb4884/EventSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7866a8df22c8518daae671b2dc47f23de79c9599586a82f119bb19f77168aa5/HttpMessageHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/82a942b451280be6a862f929cc014255e959fb6bcfd0d815a793bbba1972d/CredentialCache.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a5a6b6c80ee559cba15cee99e683c4aeaf11c1d7291fe28c478f57ed8eecf/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b136effcb2bb5391b69dfe54758315045fbc2df5e91b97567a5b91a870f322/HttpClientHandler.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e3144773bd2fca681ef5caed7b5f4a1840518e13cc17d37d78fa23f49bc291/HttpConnectionSettings.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,7 +69,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.StarWarsAPI">
     <configuration name="StarWarsAPI" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />

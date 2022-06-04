@@ -15,10 +15,10 @@ namespace StarWarsAPI
             var controller = new SwapiController(service);
 
             var heroes = await controller.HeroesCreator();
-            var toptext = $"There are {heroes.NumberOfHeroes} heroes in this document";
+            var toptext = $"There are {heroes} heroes in this document";
             
             // Write the number of heroes heroes.numberof then the name of each hero
-            var namelist = heroes.HeroList.Select(hero => hero.Name);
+            var namelist = heroes.Select(hero => hero.Name);
             namelist.Prepend(toptext);
             await File.WriteAllLinesAsync("WriteLines.txt", namelist);
 

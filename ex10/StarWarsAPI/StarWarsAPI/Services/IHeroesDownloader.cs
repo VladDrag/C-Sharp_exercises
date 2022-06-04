@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using StarWarsAPI.Models;
 
@@ -7,6 +8,6 @@ namespace StarWarsAPI.Services
     {
         Task<Hero> GetHero(int id);
 
-        Task<Heroes> GetHeroes();
+        Task<IEnumerable<Hero>> GetHeroes();
     }
 }

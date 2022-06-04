@@ -6,6 +6,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{5E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarWarsAPI", "StarWarsAPI\StarWarsAPI.csproj", "{4A8274F7-70D5-4D2E-91A3-3A73DFD1FD77}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapiTests", "SwapiTests\SwapiTests.csproj", "{EB3DA35D-E639-4C59-82C6-A7DACCE5FA6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{4A8274F7-70D5-4D2E-91A3-3A73DFD1FD77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A8274F7-70D5-4D2E-91A3-3A73DFD1FD77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A8274F7-70D5-4D2E-91A3-3A73DFD1FD77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3DA35D-E639-4C59-82C6-A7DACCE5FA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3DA35D-E639-4C59-82C6-A7DACCE5FA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3DA35D-E639-4C59-82C6-A7DACCE5FA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3DA35D-E639-4C59-82C6-A7DACCE5FA6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{325E6F55-AFD7-4B38-8E78-DB23DFDE2624} = {5EF84902-7B87-4356-9A3A-804E81DEAD9B}

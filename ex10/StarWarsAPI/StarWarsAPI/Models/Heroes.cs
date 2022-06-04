@@ -6,7 +6,7 @@ namespace StarWarsAPI.Models
     public class Heroes
     {
         [JsonPropertyName("results")]
-        public IList<Hero> HeroList { get; set; }
+        public List<Hero> HeroList { get; set; }
 
         public int NumberOfHeroes => HeroList.Count;
     }

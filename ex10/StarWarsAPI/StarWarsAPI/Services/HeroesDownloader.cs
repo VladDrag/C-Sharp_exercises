@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text.Json;
@@ -21,7 +22,7 @@ namespace StarWarsAPI.Services
             return  await JsonSerializer.DeserializeAsync<Hero>(await heroTask);
         }
 
-        public async Task<Heroes> GetHeroes()
+        public async Task<IEnumerable<Hero>> GetHeroes()
         {
             var client = new HttpClient();
             client.DefaultRequestHeaders.Accept.Clear();
@@ -31,7 +32,7 @@ namespace StarWarsAPI.Services
             var heroesTask = client.GetStreamAsync(url);
 
         
-            return  await JsonSerializer.DeserializeAsync<Heroes>(await heroesTask);
+            return  await JsonSerializer.DeserializeAsync<IEnumerable<Hero>>(await heroesTask);
         }
 
     }
