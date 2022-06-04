@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a807ff-26fe-4ac7-b71d-061eeeaef7f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StarWarsAPI/Services/IHeroesDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/StarWarsAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/StarWarsAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +24,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StarWarsAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StarWarsAPI/Services/IHeroesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2A7iVvm1e2Nu62BozQGfxJlOVIC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +46,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -64,6 +80,8 @@
       <updated>1654367052149</updated>
       <workItem from="1654367060288" duration="26000" />
       <workItem from="1654367374600" duration="710000" />
+      <workItem from="1654368921545" duration="670000" />
+      <workItem from="1654369632468" duration="341000" />
     </task>
     <servers />
   </component>
