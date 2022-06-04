@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a807ff-26fe-4ac7-b71d-061eeeaef7f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/StarWarsAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/StarWarsAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/StarWarsAPI.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/rider.project.restore.info" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/StarWarsAPI/Models/Heroes.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" afterDir="false" />
@@ -15,10 +27,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/StarWarsAPI/Models/Hero.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/StarWarsAPI/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StarWarsAPI/Services/HeroesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/StarWarsAPI/Services/IHeroesDownloader.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="Toolset" />
   </component>
   <component name="ProjectId" id="2A7iVvm1e2Nu62BozQGfxJlOVIC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,6 +44,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
