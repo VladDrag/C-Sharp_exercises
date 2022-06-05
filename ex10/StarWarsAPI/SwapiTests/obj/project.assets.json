@@ -7040,19 +7040,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/saltdev/.nuget/packages/": {}
+    "/Users/eirik/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex10/StarWarsAPI/SwapiTests/SwapiTests.csproj",
+      "projectUniqueName": "/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/SwapiTests/SwapiTests.csproj",
       "projectName": "SwapiTests",
-      "projectPath": "/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex10/StarWarsAPI/SwapiTests/SwapiTests.csproj",
-      "packagesPath": "/Users/saltdev/.nuget/packages/",
-      "outputPath": "/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex10/StarWarsAPI/SwapiTests/obj/",
+      "projectPath": "/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/SwapiTests/SwapiTests.csproj",
+      "packagesPath": "/Users/eirik/.nuget/packages/",
+      "outputPath": "/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/SwapiTests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/saltdev/.nuget/NuGet/NuGet.Config"
+        "/Users/eirik/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7064,8 +7064,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/StarWarsAPI.csproj": {
-              "projectPath": "/Users/saltdev/Desktop/personal_exercises/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/StarWarsAPI.csproj"
+            "/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/StarWarsAPI.csproj": {
+              "projectPath": "/Users/eirik/code/eirikslys/salt-labs/vladsstuff/C-Sharp_exercises/ex10/StarWarsAPI/StarWarsAPI/StarWarsAPI.csproj"
             }
           }
         }
