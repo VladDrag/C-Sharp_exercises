@@ -24,11 +24,19 @@ namespace StarWarsAPI
             //     File.AppendAllText("Result.txt", "Hero name is :" + hero.Name + "\n");
             // }
 
-            var id = "1";
+            var input = args[0].Split("=");
+            Console.WriteLine(input[0]);
+            Console.WriteLine(input[1]);
+            if (input[0] =="id" && int.TryParse(input[1], out var id))
+            {
+                Console.WriteLine("if statement passed");
+                var heroResponse = await controller.HeroCreator(input[1]);
+                Console.WriteLine(heroResponse.Name);
+                File.WriteAllText("Result.txt",$"{heroResponse.Name} is of the gender {heroResponse.Gender}, " +
+                                               $"and is {heroResponse.HeightInCm} centimeters tall.");
+            }
 
-            var heroResponse = await controller.HeroCreator(id);
-            File.WriteAllText("Result.txt",$"{heroResponse.Name} is of the gender {heroResponse.Gender}, " +
-                                           $"and is {heroResponse.HeightInCm} centimeters tall.");
+
 
         }
     }
