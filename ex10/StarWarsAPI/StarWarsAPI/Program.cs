@@ -43,5 +43,6 @@ namespace StarWarsAPI
             
             var input = args[0].Split("=");
             if (input[0] =="id" && int.TryParse(input[1], out var id)) await PrintOneHero(input);
+        }
     }
 }
