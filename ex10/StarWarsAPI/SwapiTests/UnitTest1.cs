@@ -17,7 +17,7 @@ namespace Swapi.Tests
 
             var heroes = await controller.HeroesCreator();
 
-            heroes.ToList().Count.Should().BeGreaterThan(1);
+            heroes.HeroList.Count.Should().BeGreaterThan(1);
         }
         
         [Fact]
@@ -28,7 +28,7 @@ namespace Swapi.Tests
 
             var heroes = await controller.HeroesCreator();
 
-            heroes.ToList()[0].Name.Should().Be("Luke Skywalker");
+            heroes.HeroList[0].Name.Should().Be("Luke Skywalker");
         }
     }
 }

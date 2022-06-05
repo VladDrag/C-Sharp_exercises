@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using StarWarsAPI.Controllers;
 using StarWarsAPI.Services;
@@ -14,14 +15,15 @@ namespace StarWarsAPI
             var service = new HeroesDownloader();
             var controller = new SwapiController(service);
 
-            var heroes = await controller.HeroesCreator();
-            var toptext = $"There are {heroes} heroes in this document";
-            
-            // Write the number of heroes heroes.numberof then the name of each hero
-            var namelist = heroes.Select(hero => hero.Name);
-            namelist.Prepend(toptext);
-            await File.WriteAllLinesAsync("WriteLines.txt", namelist);
-
+            var heroreses = await controller.HeroesCreator();
+            var heroes = heroreses.HeroList;
+            var writer = new StreamWriter(Directory.GetCurrentDirectory() + "//Results");
+            Console.WriteLine(Directory.GetCurrentDirectory() + "//Results");
+            writer.WriteLine("There are " + heroes.Count + " heroes in this list");
+            for (var i = 0; i < heroes.Count; i++)
+            {
+                writer.WriteLine("For hero number " + i + "the name is " + heroes[i].Name);
+            }
         }
     }
 }

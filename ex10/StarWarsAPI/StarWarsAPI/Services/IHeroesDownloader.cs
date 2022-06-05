@@ -8,6 +8,6 @@ namespace StarWarsAPI.Services
     {
         Task<Hero> GetHero(int id);
 
-        Task<IEnumerable<Hero>> GetHeroes();
+        Task<Heroes> GetHeroes();
     }
 }

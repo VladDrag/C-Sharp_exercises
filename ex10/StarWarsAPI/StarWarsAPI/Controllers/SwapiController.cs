@@ -16,7 +16,7 @@ namespace StarWarsAPI.Controllers
         public SwapiController(IHeroesDownloader service) => _heroesService = service;
         
         [HttpGet]
-        public async Task<IEnumerable<Hero>> HeroesCreator()
+        public async Task<Heroes> HeroesCreator()
         {
             return await _heroesService.GetHeroes();
         }

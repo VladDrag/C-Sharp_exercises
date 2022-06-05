@@ -22,7 +22,7 @@ namespace StarWarsAPI.Services
             return  await JsonSerializer.DeserializeAsync<Hero>(await heroTask);
         }
 
-        public async Task<IEnumerable<Hero>> GetHeroes()
+        public async Task<Heroes> GetHeroes()
         {
             var client = new HttpClient();
             client.DefaultRequestHeaders.Accept.Clear();
@@ -32,7 +32,7 @@ namespace StarWarsAPI.Services
             var heroesTask = client.GetStreamAsync(url);
 
         
-            return  await JsonSerializer.DeserializeAsync<IEnumerable<Hero>>(await heroesTask);
+            return  await JsonSerializer.DeserializeAsync<Heroes>(await heroesTask);
         }
 
     }
