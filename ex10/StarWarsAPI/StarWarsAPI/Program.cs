@@ -24,20 +24,32 @@ namespace StarWarsAPI
                 File.AppendAllText("Result.txt", "Hero name is :" + hero.Name + "\n");
             }
         }
-        // "all" / "id=1"
+
+        static async Task PrintOneHero(string[] input)
+        {
+            var service = new HeroesDownloader();
+            var controller = new SwapiController(service);
+
+            
+            var heroResponse = await controller.HeroCreator(input[1]);
+            File.WriteAllText("Result.txt",$"{heroResponse.Name} is of the gender {heroResponse.Gender}, " +
+                                           $"and is {heroResponse.HeightInCm} centimeters tall.");
+            
+        }
+
         static async Task Main(string[] args)
         {
             Console.WriteLine(args[0]);
             if (args[0] == "all") await PrintAllHeroes();
-            // var service = new HeroesDownloader();
-            // var controller = new SwapiController(service);
-            //
-            // var id = "1";
-            //
-            // var heroResponse = await controller.HeroCreator(id);
-            // File.WriteAllText("Result.txt",$"{heroResponse.Name} is of the gender {heroResponse.Gender}, " +
-            //                                $"and is {heroResponse.HeightInCm} centimeters tall.");
+            
+            var input = args[0].Split("=");
 
+            
+            if (input[0] =="id" && int.TryParse(input[1], out var id))
+            {
+                PrintOneHero(input);
+
+            }
         }
     }
 }
