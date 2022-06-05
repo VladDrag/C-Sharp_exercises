@@ -39,17 +39,9 @@ namespace StarWarsAPI
 
         static async Task Main(string[] args)
         {
-            Console.WriteLine(args[0]);
             if (args[0] == "all") await PrintAllHeroes();
             
             var input = args[0].Split("=");
-
-            
-            if (input[0] =="id" && int.TryParse(input[1], out var id))
-            {
-                PrintOneHero(input);
-
-            }
-        }
+            if (input[0] =="id" && int.TryParse(input[1], out var id)) await PrintOneHero(input);
     }
 }
