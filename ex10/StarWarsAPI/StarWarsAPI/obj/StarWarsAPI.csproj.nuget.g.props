@@ -4,15 +4,15 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/eirik/.nuget/packages/</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/eirik/.nuget/packages/</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/saltdev/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/saltdev/.nuget/packages/</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="/Users/eirik/.nuget/packages/" />
+    <SourceRoot Include="/Users/saltdev/.nuget/packages/" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/eirik/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
+    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/saltdev/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
   </PropertyGroup>
 </Project>

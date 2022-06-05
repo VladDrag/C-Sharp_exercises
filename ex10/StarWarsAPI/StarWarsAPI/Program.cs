@@ -10,19 +10,25 @@ namespace StarWarsAPI
 {
     class Program
     {
-        static async Task Main(string[] args)
+        static async Task PrintAllHeroes()
         {
             var service = new HeroesDownloader();
             var controller = new SwapiController(service);
 
-            // var heroesResponse = await controller.HeroesCreator();
-            // var heroes = heroesResponse.HeroList;
-            //
-            // File.WriteAllText("Result.txt", "Count is = " + heroes.Count + "\n");
-            // foreach (var hero in heroes)
-            // {
-            //     File.AppendAllText("Result.txt", "Hero name is :" + hero.Name + "\n");
-            // }
+            var heroesResponse = await controller.HeroesCreator();
+            var heroes = heroesResponse.HeroList;
+            
+            File.WriteAllText("Result.txt", "Count is = " + heroesResponse.NumberOfHeroes + "\n");
+            foreach (var hero in heroes)
+            {
+                File.AppendAllText("Result.txt", "Hero name is :" + hero.Name + "\n");
+            }
+        }
+        static async Task Main(string[] args)
+        {
+            Console.WriteLine(args[0]);
+            if (args[0] == "all") await PrintAllHeroes();
+
 
             var input = args[0].Split("=");
             Console.WriteLine(input[0]);
