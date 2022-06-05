@@ -5,13 +5,13 @@ namespace StarWarsAPI.Models
     public class Hero
     {
         [JsonPropertyName("name")]
-        public string Name { get; }
+        public string Name { get; set; }
         
         [JsonPropertyName("gender")]
-        public string Gender { get; }
+        public string Gender { get; set; }
         
         [JsonPropertyName("height")]
-        public string HeightInCm { get; }
+        public string HeightInCm { get; set; }
 
         public string HeightInMm
         {

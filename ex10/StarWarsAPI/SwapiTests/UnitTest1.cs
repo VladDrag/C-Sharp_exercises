@@ -18,6 +18,7 @@ namespace Swapi.Tests
             var heroes = await controller.HeroesCreator();
 
             heroes.HeroList.Count.Should().BeGreaterThan(1);
+            heroes.HeroList.Count.Should().Be(10);
         }
         
         [Fact]
