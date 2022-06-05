@@ -15,14 +15,13 @@ namespace StarWarsAPI
             var service = new HeroesDownloader();
             var controller = new SwapiController(service);
 
-            var heroreses = await controller.HeroesCreator();
-            var heroes = heroreses.HeroList;
-            var writer = new StreamWriter(Directory.GetCurrentDirectory() + "//Results");
-            Console.WriteLine(Directory.GetCurrentDirectory() + "//Results");
-            writer.WriteLine("There are " + heroes.Count + " heroes in this list");
-            for (var i = 0; i < heroes.Count; i++)
+            var heroesResponse = await controller.HeroesCreator();
+            var heroes = heroesResponse.HeroList;
+            
+            File.WriteAllText("Result.txt", "Count is = " + heroes.Count + "\n");
+            foreach (var hero in heroes)
             {
-                writer.WriteLine("For hero number " + i + "the name is " + heroes[i].Name);
+                File.AppendAllText("Result.txt", "Hero name is :" + hero.Name + "\n");
             }
         }
     }

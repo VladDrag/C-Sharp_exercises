@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="80a807ff-26fe-4ac7-b71d-061eeeaef7f5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/StarWarsAPI.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StarWarsAPI/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/Results" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/bin/Debug/net5.0/StarWarsAPI.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/StarWarsAPI/obj/Debug/net5.0/StarWarsAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/StarWarsAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/StarWarsAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/StarWarsAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/StarWarsAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/SwapiTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/SwapiTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/SwapiTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/bin/Debug/net5.0/SwapiTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/obj/Debug/net5.0/SwapiTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/obj/Debug/net5.0/SwapiTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/obj/Debug/net5.0/SwapiTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/obj/Debug/net5.0/SwapiTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SwapiTests/obj/Debug/net5.0/SwapiTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SwapiTests/obj/Debug/net5.0/SwapiTests.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

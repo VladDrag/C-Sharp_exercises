@@ -1,0 +1,11 @@
+Count is = 10
+Hero name is :Luke Skywalker
+Hero name is :C-3PO
+Hero name is :R2-D2
+Hero name is :Darth Vader
+Hero name is :Leia Organa
+Hero name is :Owen Lars
+Hero name is :Beru Whitesun lars
+Hero name is :R5-D4
+Hero name is :Biggs Darklighter
+Hero name is :Obi-Wan Kenobi
