@@ -1,0 +1,12 @@
+@model StarWarsHeroes.Models.Heroes
+
+@{
+    ViewBag.Title = "Star Wars Heroes";
+    Layout = "_Layout";
+}
+
+<h2>Star Wars Heroes</h2>
+@foreach (var hero in Model.HeroesList)
+{
+    <p>@hero.Name : Gender: @hero.Gender ; Hair Color: @hero.HairColor;  Skin Color: @hero.SkinColor</p>
+}
