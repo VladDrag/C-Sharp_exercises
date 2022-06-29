@@ -43,7 +43,6 @@ namespace Sorcery
 		public static void Main(string[] args)
 		{
 			var sorcerer = new Sorcerer("Oliver", "Warlock", "Idea");
-			// var sorcerer = new Sorcerer();
 			var info = sorcerer.GetType().Assembly;
 			var types = info.GetTypes();
 			foreach (var type in types)
