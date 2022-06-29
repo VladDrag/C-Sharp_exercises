@@ -2,11 +2,11 @@ using System;
 
 namespace FactoryExample
 {
-	public class Volkwagen : Car
+	public class Volkswagen : Car
 	{
 		private int _cost;
 
-		public Volkwagen() => _cost = 100;
+		public Volkswagen() => _cost = 100;
 		public void PrintCost() => Console.WriteLine("Cost is: " + _cost);
 	}
 }
